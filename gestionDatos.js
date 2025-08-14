@@ -104,4 +104,4 @@ productosOrdenados.sort((a, b) => b.precio - a.precio);
 console.log("Los productos ordenados por precio en orden decreciente son: ");
 console.log(productosOrdenados);
 console.log("El array final de productos es: ");
-console.log(productos);
+console.table(productos);
